@@ -1,0 +1,4 @@
+{% for a in word.all %}
+<a href="{% url 'word' a.word %}">{{a.word}}</a>
+<br>
+{% endfor %}
